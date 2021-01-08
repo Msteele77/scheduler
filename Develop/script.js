@@ -14,3 +14,10 @@ var workday = {
     "4 PM": "",
     "5 PM": "",
 }
+
+
+
+var input = document.createElement('input'); 
+input.type = "text"; 
+//...    
+container.appendChild(input); 
