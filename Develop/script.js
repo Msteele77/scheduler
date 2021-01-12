@@ -15,9 +15,15 @@ var workday = {
     "5 PM": "",
 }
 
+//save function
+var buttonClickHandler = function (event) {
+console.log("It worked");
+}
+
+//Save button event listener
+document.getElementById("save-btn").addEventListener("click", buttonClickHandler);
 
 
-var input = document.createElement('input'); 
-input.type = "text"; 
-//...    
-container.appendChild(input); 
+
+//Time Block Functions
+
