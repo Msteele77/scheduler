@@ -34,19 +34,19 @@ $(document).ready (function () {
 
 function tracker () {
     
-    var currentTime = moment().hour();
+    var timeNow = moment().hour();
 
             
             $(".time-block").each(function () {
                 var blockTime = parseInt($(this).attr("id").split("hour")[1]);
     
                 
-                if (blockTime < currentTime) {
+                if (blockTime < timeNow) {
                     $(this).removeClass("future");
                     $(this).removeClass("present");
                     $(this).addClass("past");
                 }
-                else if (blockTime === currrentTime) {
+                else if (blockTime === timeNow) {
                     $(this).removeClass("past");
                     $(this).removeClass("future");
                     $(this).addClass("present");
@@ -62,7 +62,7 @@ function tracker () {
 
 
 
-//Time Block Functions
+
 
     $("#hour1 .description").val(localStorage.getItem("hour1"));
     $("#hour2 .description").val(localStorage.getItem("hour2"));
