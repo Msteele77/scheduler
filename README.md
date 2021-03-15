@@ -18,3 +18,15 @@
 
 - This application uses html, css, jquery, moment.js and boostrap technologies.
 - Google Fonts and Font Awesome were used for styling. 
+
+
+[Link To Deployed Application]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+
+
+
+## Preview of application:
+
+![Alt text](assets/images/work-day-scheduler.png)
+
+### ([See Deployed Application](https://msteele77.github.io/scheduler/))
